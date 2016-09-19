@@ -1,3 +1,3 @@
 
-CSDN Blog [iOS - Category中调回主类的同名原方法](http://blog.csdn.net/WOTors/article/details/52576433)
+CSDN Blog : [iOS - Invoke original same name in Class from Category](http://blog.csdn.net/WOTors/article/details/52576433)
 
