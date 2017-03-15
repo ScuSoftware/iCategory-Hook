@@ -4,7 +4,7 @@
 @implementation ViewController (HookViewDidLoad)
 
 - (void)viewDidLoad {
-    NSLog(@"Invoke Category viewDidLoad");
+    NSLog(@"++++++ Invoke Category viewDidLoad");
     
     // Call original method
     [ViewController invokeOriginalMethod:self selector:_cmd];
@@ -18,7 +18,7 @@
     // Print to console
     for (int i = 0; i < count; i++) {
         Method method = methodList[i];
-        NSLog(@"Category get selector : %d %@", i, NSStringFromSelector(method_getName(method)));
+        NSLog(@"Category catch selector : %d %@", i, NSStringFromSelector(method_getName(method)));
     }
     
     // Call original method . Note here take the last same name method as the original method

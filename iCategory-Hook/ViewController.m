@@ -10,7 +10,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"Invoke Original viewDidLoad");
+    NSLog(@"++++++ Invoke Original viewDidLoad");
     
     // add a gray view
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];

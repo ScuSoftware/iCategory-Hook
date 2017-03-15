@@ -14,6 +14,7 @@
 		5EBA04221D8939950099C046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA04211D8939950099C046 /* Assets.xcassets */; };
 		5EBA04251D8939950099C046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA04231D8939950099C046 /* LaunchScreen.storyboard */; };
 		5EBA042E1D893A100099C046 /* ViewController+HookViewDidLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA042D1D893A100099C046 /* ViewController+HookViewDidLoad.m */; };
+		5ED8C6DF1E78EDE90024EADB /* NSObject+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8C6DE1E78EDE90024EADB /* NSObject+Hook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		5EBA04261D8939950099C046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EBA042C1D893A100099C046 /* ViewController+HookViewDidLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+HookViewDidLoad.h"; sourceTree = "<group>"; };
 		5EBA042D1D893A100099C046 /* ViewController+HookViewDidLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+HookViewDidLoad.m"; sourceTree = "<group>"; };
+		5ED8C6DD1E78EDE90024EADB /* NSObject+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Hook.h"; sourceTree = "<group>"; };
+		5ED8C6DE1E78EDE90024EADB /* NSObject+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Hook.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		5EBA04141D8939950099C046 /* iCategory-Hook */ = {
 			isa = PBXGroup;
 			children = (
+				5ED8C6DD1E78EDE90024EADB /* NSObject+Hook.h */,
+				5ED8C6DE1E78EDE90024EADB /* NSObject+Hook.m */,
 				5EBA042C1D893A100099C046 /* ViewController+HookViewDidLoad.h */,
 				5EBA042D1D893A100099C046 /* ViewController+HookViewDidLoad.m */,
 				5EBA04181D8939950099C046 /* AppDelegate.h */,
@@ -156,6 +161,7 @@
 			files = (
 				5EBA042E1D893A100099C046 /* ViewController+HookViewDidLoad.m in Sources */,
 				5EBA041D1D8939950099C046 /* ViewController.m in Sources */,
+				5ED8C6DF1E78EDE90024EADB /* NSObject+Hook.m in Sources */,
 				5EBA041A1D8939950099C046 /* AppDelegate.m in Sources */,
 				5EBA04171D8939950099C046 /* main.m in Sources */,
 			);
@@ -310,6 +316,7 @@
 				5EBA042B1D8939950099C046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
